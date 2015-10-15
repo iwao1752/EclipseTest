@@ -13,7 +13,7 @@ public class ArrayTest {
 	    }
 	    System.out.println( "--<extended ForLoop statement>--");
 	    for(int i : n){
-	    	System.out.println( i );
+	    	System.out.println( "array n[" + (i-1) + "]-->" + i );
 	    }
     }
 }
