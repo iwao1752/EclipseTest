@@ -1,8 +1,13 @@
 public class ArgTest {
 	public static void main(String args[]){
+		System.out.println( "Start Method 'PrintName'");
 		PrintName("abc");
 		PrintName("def");
 		PrintName("");
+		
+		System.out.println( "---------------" );
+		System.out.println( "Start Method 'ArgCalc'" );
+		ArgCalc( 2,4,6);
 	}
 	
 	public static void PrintName(String name){
